@@ -1,0 +1,148 @@
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 10rem;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0.5em;
+}
+
+.testi .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.testi .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  /* Tablet dan perangkat yang lebih besar */
+  .carousel-inner .carousel-item .container .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 50%; /* 2 kolom */
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Desktop dan perangkat yang lebih besar */
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 33.33%; /* 3 kolom */
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Layar yang lebih besar dari 992px */
+  .carousel-inner .carousel-item .container .row .col {
+    flex: 0 0 25%; /* 4 kolom */
+    max-width: 25%;
+  }
+}
+.carousel-item img {
+  width: 100%; /* Lebar gambar menyesuaikan proporsi aslinya */
+  max-height: 700px;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.footer li a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  gap: 3rem;
+}
+
+.card img.img-user {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -45px;
+  right: -20px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.card .star-container img {
+  width: 12px;
+  height: auto;
+}
+
+#packages .card-header {
+  background-color: rgb(37, 36, 36);
+  color: aliceblue;
+}
+
+.container1 button {
+  width: 100px;
+  padding: 10px;
+  align-items: center;
+}
+
+.container1 {
+  margin: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+#gallery {
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+#packages {
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+#testimonial {
+  padding-top: 35px;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+}
+
+#form {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 41%, rgba(236, 236, 236, 1) 84%, rgba(246, 246, 246, 1) 100%);
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* must know baru*/
+.mustknow {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 50px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
